@@ -1,70 +1,26 @@
-# ML & AI Projects Portfolio
+# E-Commerce Customer Churn Prediction System
 
-## 1. E-Commerce Customer Churn Prediction System (2025)  
-**Description:**  
-End-to-end ML pipeline predicting customer churn to help e-commerce businesses reduce acquisition costs by identifying at-risk customers.
+## Overview
+This project delivers a complete machine learning pipeline for predicting customer churn with **81% accuracy**, enabling e-commerce businesses to identify at-risk customers and reduce acquisition costs.
 
-**Key Features:**  
-- 81% accuracy using Logistic Regression  
-- Advanced feature engineering with FeatureWiz (25+ → 9 key predictors)  
-- Explainable AI with SHAP values for stakeholder insights  
-- Production-ready model serialized with `pickle`
+## Direct E-Commerce Relevance
+- **Customer Retention:** Critical for profitability in online retail  
+- **Predictive Analytics:** Optimizes customer engagement and behavior  
+- **Business Intelligence:** Informs strategic decision-making
 
-**Tech Stack:**  
-Scikit-learn • XGBoost • SHAP • FeatureWiz • Pandas • Matplotlib
+## Technical Excellence Demonstrated
+1. **Complete ML Pipeline:**  
+   - Data preprocessing → Feature engineering → Model training → Evaluation → Deployment  
+2. **Advanced Techniques:**  
+   - Feature selection with FeatureWiz  
+   - Algorithm comparison: Decision Tree, Random Forest, Logistic Regression, XGBoost  
+   - Hyperparameter tuning via GridSearchCV  
+   - Cross-validation & K-fold validation  
+3. **Explainable AI:**  
+   - SHAP values for model interpretability  
+4. **Production Ready:**  
+   - Model serialization with `pickle` for seamless deployment
 
-**Repository:**  
-https://github.com/NMNayan57/Customer-churn-prediction.git
 
----
 
-## 2. E-Commerce Conversational Chatbot & Visual Product Search (2025)  
-**Description:**  
-Unified customer engagement solution combining a natural-language chatbot and reverse-image product search.
 
-**Chatbot:**  
-- Natural-language product inquiries, order tracking, personalized recommendations  
-- RAG architecture with GPT-4 & Pinecone vector search  
-- 92% query satisfaction  
-
-**Visual Search:**  
-- Upload images to find matching catalog items  
-- EfficientNet feature extraction & FAISS ANN search  
-- 88% retrieval precision  
-
-**Backend:**  
-FastAPI • Docker • PostgreSQL (sessions) • Redis (caching) • <200 ms latency
-
-**Tech Stack:**  
-Python • LangChain • GPT-4 • Pinecone • PyTorch • EfficientNet • FAISS • FastAPI • Docker
-
-**Repository:**  
-(https://github.com/NMNayan57/Customer-churn-prediction.git)
-
----
-
-## 3. Telco Customer Churn Prediction (2025)  
-**Description:**  
-Predictive analytics for telco customer churn leveraging multiple classification algorithms and explainable AI.
-
-**Key Steps:**  
-1. Data cleaning & EDA on 7k+ records  
-2. Feature selection (FeatureWiz → 9 features)  
-3. Model comparison: Decision Tree, Random Forest, Logistic Regression, XGBoost  
-4. Hyperparameter tuning with GridSearchCV  
-5. Cross-validation & performance metrics (accuracy, precision, recall, F1, ROC-AUC)  
-6. Explainability via SHAP summary plots  
-7. Deployment with `pickle`
-
-**Results:**  
-- Logistic Regression: 81% accuracy, 0.62 F1-score  
-- Random Forest: 80% accuracy, 0.59 F1-score  
-- XGBoost: 80% accuracy, 0.58 F1-score
-
-**Tech Stack:**  
-Pandas • NumPy • Scikit-learn • XGBoost • FeatureWiz • SHAP • Matplotlib • Seaborn
-
-**Repository:**  
-(https://github.com/NMNayan57/Customer-churn-prediction.git)
-
----
